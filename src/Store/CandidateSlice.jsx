@@ -40,7 +40,7 @@ const candidateSlice = createSlice({
                 state.status = StatusCode.LOADING;
             })
             .addCase(getCandidateDetails.fulfilled, (state, action) => {
-                state.data = state.data.concat(action.payload); // Concatenate new data with existing data
+                state.data = state.data.concat(action.payload); 
                 state.status = StatusCode.IDLE;
             })
             .addCase(getCandidateDetails.rejected, (state, action) => {

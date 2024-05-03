@@ -106,7 +106,7 @@ const Filter = ({ candidateDetails, setFilteredCandidates }) => {
                         <MenuItem value='frontend'>Frontend</MenuItem>
                         <MenuItem value='backend'>Backend</MenuItem>
                         <MenuItem value='ios'>iOS</MenuItem>
-                        {/* Add more roles */}
+                        
                     </Select>
                 </FormControl>
 
@@ -132,7 +132,7 @@ const Filter = ({ candidateDetails, setFilteredCandidates }) => {
                         <MenuItem value='delhi ncr'>Delhi NCR</MenuItem>
                         <MenuItem value='mumbai'>Mumbai</MenuItem>
                         <MenuItem value='chennai'>Chennai</MenuItem>
-                        {/* Add more locations */}
+                        
                     </Select>
                 </FormControl>
 
@@ -155,7 +155,7 @@ const Filter = ({ candidateDetails, setFilteredCandidates }) => {
                         <MenuItem value='0-2'>0-2 Years</MenuItem>
                         <MenuItem value='3-5'>3-5 Years</MenuItem>
                         <MenuItem value='5+'>5+ Years</MenuItem>
-                        {/* Add more experience options */}
+                        
                     </Select>
                 </FormControl>
 
@@ -177,7 +177,7 @@ const Filter = ({ candidateDetails, setFilteredCandidates }) => {
                         <MenuItem value="25">25 USD</MenuItem>
                         <MenuItem value="50">50 USD</MenuItem>
                         <MenuItem value="75">75 USD</MenuItem>
-                        {/* Add more minimum salary options */}
+                        
                     </Select>
                 </FormControl>
             </div>
