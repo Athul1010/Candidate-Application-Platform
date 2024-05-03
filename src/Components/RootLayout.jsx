@@ -1,14 +1,11 @@
 import React from 'react'
-// import Navbars from './Navbars'
-import Product from './Product'
-
+import Details from './Details'
 
 const RootLayout = () => {
   return (
     <div>
-      {/* <Navbars /> */}
       <div>
-        <Product />
+        <Details/>
       </div>
     </div>
   )
