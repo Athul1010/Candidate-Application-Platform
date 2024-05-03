@@ -75,7 +75,7 @@ const Details = () => {
                                             <div className='applicant'>
                                                 <Card.Title><p>{candidate.jobRole}</p></Card.Title>
                                                 <Card.Text><p className='location'>{candidate.location}</p></Card.Text>
-                                                <Card.Text><p className='location'>{candidate.minJdSalary}</p></Card.Text>
+                                                <Card.Text><p className='min-salary'>Minimum Experience: {candidate.minJdSalary}</p></Card.Text>
                                                 <Card.Text>
                                                     <p className='about-company'>About Company:</p>
                                                     <p className='about-us'>About Us</p>

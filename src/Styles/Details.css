@@ -77,6 +77,10 @@
 .unlock span{
     font-size: 14px;
 }
+.min-salary{
+    font-size: 14px;
+    font-weight: 400;
+}
 
 .views{
     cursor: pointer;
